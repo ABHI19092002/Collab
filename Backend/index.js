@@ -1,12 +1,19 @@
 import express from 'express';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 
-app.use(express.json());
+import authRouter from './routes/authRoutes'
+import postRouter from './routes/postRoutes'
 
-app.use('/api/v1/all',routes);
+app.use('/api/v1/auth',authRouter);
+app.use('/api/v1/post',postRouter);
 
-app.get('/loading',)
+app.get('/',(req,res) => {
+    res.send('Welcome');
+})
 
 const port = process.env.PORT || 5000;
 
