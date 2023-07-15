@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F8F9FA;
+    /* overflow-x: hidden; */
+}
+
+a{
+    color: #007ef5;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: #F8F9FA;
+}
+
+.navbar{
+    font-family: 'Chela One';
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+}
+
+.nav-brand{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    align-items: left;
+}
+
+
+.navbar input{
+    height: 40px;
+    margin-right: 80px;
+    border-color: rgb(28, 231, 231);
+}
+
+.nav-search {
+    margin-right: 50px;
+    padding-left: 30px;
+}
+
+.navbar img{
+    /* margin-right: 90px; */
+    margin-left: 45px;
+    height: 40px;
+    width: 45px;
+    border-radius: 100%;
+}
+
+.home{
+    width: auto;
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%);
+    /* background-image: url(https://images.pexels.com/photos/7415263/pexels-photo-7415263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100% 100%; */
+    object-fit: fill;
+}
+
+.home-pg h4{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+.home h1{
+    font-family: 'Tektur', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    background: #3CDDF0;
+    background: linear-gradient(to right, #3CDDF0 0%, #446ECF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-left{
+    margin: 7% 16% 1%; 
+    width: 40%;
+}
+
+.home-left Button {
+    margin-top: 7%;
+}
+
+.home img {
+    width: 400px;
+    height: 550px;
+    margin: 4% 0;
+}
+
+.home-btn Button{
+    font-size: 20px;
+    margin-right: 7%;
+    border-radius: 25px;
+}
+
+.explore {
+    font-family: 'Oswald';
+    border: 1px solid #079cff;
+    color: #007ef5;
+}
+
+.answer{
+    font-size: 15px;
+    border: 2px solid #41A2DF;
+    color: #007ef5;
+ 
+}
+
+.upvote{
+    font-size: 15px;
+    border: 2px solid #41A2DF;
+    color: #007ef5;
+  
+}
+
+.ask {
+    font-family: 'Oswald';
+    border: 1px solid #41A2DF;
+    background-color: #41A2DF;
+}
+
+@media (max-width: 575px){
+
+    h4{
+        font-size: 16px;
+        padding-top: 1.2rem;
+    }
+
+    .home{
+        display: flex;
+    }
+
+    .home-btn{
+        display: flex;
+    }
+
+    .home-left h1{
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    .home img{
+        margin-top: 55px;
+        padding: 0;
+        display: flex;
+        width: 150px;
+        height: 250px;
+    }
+
+    .home-btn Button{
+        font-size: 12px;
+        margin-right: 7%;
+        border-radius: 25px;
+    }
+}
+
+.home-pg h4{
+    margin: 2% 5%;
+    width: 215px;
+}
+
+.cards{
+    margin: 1%;
+    margin-left: 3.5%;
+    width: 94%;
+    
+}
+
+.card{
+    margin: 20px 100px;
+}
+
+.btn-grp{
+    float: right;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+}
+
+.login-wrapper{
+    position: absolute;
+    top: 33%;
+    left: 40%;
+}
+
+.login-wrapper p{
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+.login-btn Button{
+    display: block;
+    width: 100%;
+}
+
+.login-btn img{
+    padding-bottom: 3px;
+    padding-right: 7px;
+}
