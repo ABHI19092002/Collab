@@ -1,7 +1,7 @@
-import { Router } from "express";
+import express from "express";
 const router = express.Router();
 
-import { createPost,deletePost,getAllPost,getOnePost,updatePost } from "../controllers/postController";
+import { createPost,deletePost,getAllPost,getOnePost,updatePost } from "../controllers/postController.js";
 
 router.route('/createPost').post(createPost);
 router.route('/deletePost').post(deletePost);
